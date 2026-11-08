@@ -52,6 +52,7 @@ h3 { font-size: 1.1rem; }
 .two-columns { display: grid; grid-template-columns: minmax(220px, .65fr) minmax(0, 1.35fr); gap: clamp(3rem, 11vw, 10rem); }
 .prose { max-width: 700px; color: #3e4a5e; font-size: 1.1rem; }
 .prose p:first-child { margin-top: 0; }
+.inline-link { color: var(--accent); font-weight: 700; text-underline-offset: .2em; }
 .research-grid, .teaching-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin: 3rem 0; }
 .institution-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-top: 3rem; }
 .institution-grid article { padding: 1.6rem; background: var(--paper); border-top: 4px solid var(--accent); }
