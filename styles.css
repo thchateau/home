@@ -27,6 +27,8 @@ nav a:hover, nav a:focus-visible { color: var(--accent); }
 .menu-button { display: none; border: 1px solid var(--line); background: transparent; padding: .5rem .75rem; color: var(--ink); font: inherit; }
 .hero { padding: clamp(5rem, 11vw, 9.5rem) 0 clamp(4rem, 8vw, 7rem); background: linear-gradient(120deg, #f8faf8, #e8eff3); }
 .hero-grid { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(250px, .7fr); align-items: center; gap: clamp(3rem, 9vw, 9rem); }
+.hero-sidebar { display: grid; gap: 1rem; }
+.profile-photo { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; object-position: center; border-bottom: 4px solid var(--accent); }
 .eyebrow { margin: 0 0 1rem; color: var(--accent); font-size: .75rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
 h1, h2, h3 { margin-top: 0; line-height: 1.12; }
 h1, h2 { font-family: var(--serif); font-weight: 400; }
@@ -41,6 +43,7 @@ h3 { font-size: 1.1rem; }
 .button-primary:hover { background: var(--accent); border-color: var(--accent); }
 .button-secondary:hover { color: white; background: var(--ink); }
 .profile-card { padding: 2rem; border-top: 4px solid var(--accent); background: var(--dark); color: #f9fbfc; }
+.hero-sidebar .profile-card { border-top: 0; }
 .profile-label { margin-top: 0; color: #b9c9d6; font-size: .75rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
 .profile-card ul { margin: 1.5rem 0 0; padding: 0; list-style: none; }
 .profile-card li { padding: .8rem 0; border-top: 1px solid #405068; font-family: var(--serif); font-size: 1.1rem; line-height: 1.35; }
