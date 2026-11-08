@@ -28,7 +28,7 @@ nav a:hover, nav a:focus-visible { color: var(--accent); }
 .hero { padding: clamp(5rem, 11vw, 9.5rem) 0 clamp(4rem, 8vw, 7rem); background: linear-gradient(120deg, #f8faf8, #e8eff3); }
 .hero-grid { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(250px, .7fr); align-items: center; gap: clamp(3rem, 9vw, 9rem); }
 .hero-sidebar { display: grid; gap: 1rem; }
-.profile-photo { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; object-position: center; border-bottom: 4px solid var(--accent); }
+.profile-photo { display: block; width: min(72%, 220px); aspect-ratio: 1; margin-left: auto; object-fit: cover; object-position: center; border-bottom: 4px solid var(--accent); }
 .eyebrow { margin: 0 0 1rem; color: var(--accent); font-size: .75rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
 h1, h2, h3 { margin-top: 0; line-height: 1.12; }
 h1, h2 { font-family: var(--serif); font-weight: 400; }
