@@ -75,6 +75,8 @@ h3 { font-size: 1.1rem; }
 .alumni-thesis { margin-top: .8rem !important; color: #3e4a5e; font-family: var(--serif); line-height: 1.4; }
 .alumni-position { margin-top: 1rem !important; color: var(--muted); font-size: .88rem; }
 .alumni-position a { color: var(--accent); font-weight: 700; text-underline-offset: .2em; }
+.alumni-links { margin-top: .55rem !important; font-size: .82rem; font-weight: 700; }
+.alumni-links a { color: var(--accent); text-underline-offset: .2em; }
 .publication-list { margin: 0; padding: 0; list-style: none; counter-reset: publications; }
 .publication-list li { position: relative; padding: 1.3rem 0 1.3rem 3.5rem; border-top: 1px solid var(--line); counter-increment: publications; }
 .publication-list li::before { position: absolute; left: 0; top: 1.3rem; color: var(--accent); content: "0" counter(publications); font-family: var(--serif); font-size: 1.2rem; }

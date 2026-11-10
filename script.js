@@ -13,4 +13,16 @@ menu.querySelectorAll("a").forEach((link) => {
   });
 });
 
+const alumniList = document.querySelector(".alumni-list");
+
+if (alumniList) {
+  [...alumniList.children]
+    .sort((first, second) => {
+      const firstYear = Number(first.querySelector(".alumni-meta").textContent.match(/\d{4}/)[0]);
+      const secondYear = Number(second.querySelector(".alumni-meta").textContent.match(/\d{4}/)[0]);
+      return secondYear - firstYear;
+    })
+    .forEach((student) => alumniList.append(student));
+}
+
 document.querySelector("#year").textContent = new Date().getFullYear();
