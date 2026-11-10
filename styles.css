@@ -33,7 +33,7 @@ nav a:hover, nav a:focus-visible { color: var(--accent); }
 h1, h2, h3 { margin-top: 0; line-height: 1.12; }
 h1, h2 { font-family: var(--serif); font-weight: 400; }
 h1 { max-width: 760px; margin-bottom: 1.5rem; font-size: clamp(2.8rem, 7vw, 5.7rem); letter-spacing: -.05em; }
-.hero-title { font-family: var(--sans); font-size: clamp(2.4rem, 5vw, 4.2rem); font-weight: 700; letter-spacing: -.04em; }
+.hero-title { font-family: "Space Grotesk", var(--sans); font-size: clamp(2.4rem, 5vw, 4.2rem); font-weight: 700; letter-spacing: -.04em; }
 h2 { margin-bottom: 1.4rem; font-size: clamp(2.25rem, 4vw, 3.65rem); letter-spacing: -.04em; }
 h3 { font-size: 1.1rem; }
 .hero-text { max-width: 650px; color: var(--muted); font-size: 1.15rem; }
